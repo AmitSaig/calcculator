@@ -12,11 +12,11 @@ function Calculator(props) {
   	}
 
   	async function handleClick(e) {
-  		await setEquation(equation + e.target.value)
+  		await setEquation(equation + e.target.value);
   	}
 
   	function handleDelete() {
-  		setEquation(equation.slice(0, -1))
+  		setEquation(equation.slice(0, -1));
   	}
 
 	function handleEquation(e) {

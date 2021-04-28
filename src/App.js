@@ -8,8 +8,8 @@ function App() {
       <header className="App-header">
         <h1>React Calulator</h1>
         <Calculator/>
-        <Socials/>
       </header>
+      <Socials/>
     </div>
   );
 }

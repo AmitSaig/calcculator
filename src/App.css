@@ -2,15 +2,19 @@
   text-align: center;
 }
 
+body {
+  background-color: #BAB6B6;
+}
+
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  font-family: roboto;
+  min-height: 85vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #2F2E2E;
 }
 
 .Result-Box { 
@@ -62,4 +66,12 @@ button:focus {
 
 .Action-Btn {
   background-color: #02C30B;
+}
+
+.Social-Bar {
+  font-size: calc(10px + 2vmin);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin-bottom: 10px;
 }
