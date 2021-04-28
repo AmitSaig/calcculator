@@ -28,6 +28,7 @@ body {
 
 
 .Equation {
+  color: white;
   position: absolute;
   white-space: nowrap;
   right: 2%;
@@ -41,7 +42,7 @@ body {
   right: 2%;
   text-overflow:ellipsis;
   top: 40%;
-  color: #8B8787;
+  color: #ABA4A4;
 }
 
 button:focus {
